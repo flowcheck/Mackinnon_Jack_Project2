@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMono-Italic-VariableFont';
+    src: url('../fonts/RobotoMono-Italic-VariableFont_wght.woff') format('woff2'),
+         url('../fonts/RobotoMono-VariableFont_wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HachiMaruPop-Regular';
+    src: url('../fonts/HachiMaruPop-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.hero
+{
+	height: 384px;
+	width: 980px;
+	background: url(../images/4_drinks.jpg) no-repeat bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.hero h2
+{
+	color: #fff;
+	font-size: 31px;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+.hero h3
+{
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+h1, h2
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+h2
+{
+	font-size: 50px;
+	font-weight: 200;
+}
+
+h3, h4
+{
+	font-family: 'RobotoMono-Italic-VariableFont', sans-serif;
+}
+
+h5, h6
+{
+	font-family: 'alex_brushregular', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-left: 100px;
+}
